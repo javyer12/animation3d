@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css" type="text/css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Work</title>
+</head>
+<body>
+    <section class='loader'>
+        <p class='loading-msg'>Cargando toda la viewport</p>
+        <br/>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <div class="page">
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="logo" class="img-responsive">
+                   <ul class='content'>
+                       <li><a href="#">Navegar en la pagina</a></li>
+                       <li><a href="https://www.facebook.com/profile.php?id=100072122836822">Facebook</a></li>
+                       <li><a href="https://twitter.com">Twitter</a></li>
+                       <li><a href="https://www.youtube.com/watch?v=HIOzIlq8gDo">Youtube</a></li>
+                   </ul> 
+                </div>
+            </nav>
+       
+
+
+        <section class="main-content">
+            <p>Animaciones de</p>
+            <h1>Super Heroes!!</h1>
+            <p>blender es uno de los softwares mas sonados en el mundo
+                de la animacion 3D, su versatilidad, interfaz y licencia gratuita
+                lo ha llevado a colocarse entre los softwares con mayor demanda
+                en el mundo de la animacion.
+            </p>
+        </section>
+       
+
+        <section class="side-content">
+            <div>  </div>
+            <div>  </div>
+            <p> F G cha</p>
+            <img class="super-man" src='https://i.ibb.co/x16pz1x/super-man.png ' alt= 'super man ' />
+           
+        </section>
+
+        <section class="footer">
+            <div id = 'buttonBus'>
+                <img src="./bus.png" alt="bus animado"/>
+            </div>
+            <div id = 'buttonCar'>
+                <img src="./carro.png" alt="carro animado"/>
+            </div>  
+            <div id = 'buttonMartillo'>
+                <img src="./martillo.png" alt="martillo animado"/>
+            </div>
+        </section>
+       
+        <!-- modal -->
+        <section class="modal hidden" id="modal-heroe">
+            <div class="modal__content">
+                <img class = 'modal__content--close' src="https://img.icons8.com/windows/32/000000/macos-close.png"/> 
+                
+                <div class="modal__content--slider">
+                   <input type='radio'  name="slider-1" id="radio-1" checked>
+                   <input type='radio'  name="slider-1" id="radio-2" checked>
+                   <input type='radio'  name="slider-1" id="radio-3" checked>
+                </div>
+
+                <div class='cards'>
+                    <label for="radio-1" class="card">
+                          <!-- <img src="./bus.png" alt="bus animado"/> -->
+                    </label>
+
+                    <label for="radio-2" class="card">
+                        <!-- <img src="./carro.png" alt="carro animado"/> -->
+                    </label>
+
+                    <label for="radio-3" class="card">
+                        <!-- <img src="./martillo.png" alt="martillo animado"/> -->
+                     </label>
+                </div>
+            </div>
+        </section>
+    </section>
+    </div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+</html>
