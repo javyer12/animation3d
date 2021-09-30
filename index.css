@@ -1,3 +1,6 @@
+/* place item
+ */
+
 body {
      height:100vh; 
      width:100vw; 
@@ -395,4 +398,59 @@ body {
       transform: translateX(-40%) scale(0.8);
       opacity: 0.5;
       z-index: 0;
+}
+.menu-social {
+     visibility: hidden;
+}
+@media (max-width:740px){
+     
+.navbar__content img{
+     visibility:hidden
+}
+.menu-social {
+     visibility: visible;
+}
+.image-menu {
+     color: white;
+}
+.navbar{
+     visibility: hidden;
+}
+
+
+
+
+.navbar__content {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.navbar__content a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar__content a:hover {
+  color: #f1f1f1;
+}
+
+.navbar__content .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 }

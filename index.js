@@ -37,3 +37,15 @@ console.log('cliked')
 })
 
 
+function openNav() {
+    alert('hey')
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  alert('hey')
+
+}
+   
+
